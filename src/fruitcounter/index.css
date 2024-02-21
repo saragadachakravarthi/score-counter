@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .fruits-container {
+    display: flex;
+    padding: 20px;
+  }
+  .mango-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .banana-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  @media screen and (min-width: 768px) {
+    .fruitpic {
+      height: 300px;
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .fruitpic {
+      height: 150px;
+      width: 150px;
+    }
+  }
+  .buttonm {
+    height: 40px;
+    width: 140px;
+    color:blue;
+    background-color:cyan;
+    border-radius: 5px;
+    border-width: 0px;
+  }
+  .buttonb {
+    height: 40px;
+    width: 140px;
+    color: blue;
+    background-color:cyan;
+    border-radius: 5px;
+    border-width: 0px;
+  }
+  
